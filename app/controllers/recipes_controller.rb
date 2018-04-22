@@ -24,6 +24,7 @@ class RecipesController < ApplicationController
         ingredients_attributes: [
         :quantity
         :name
+      }
       )
     end
 end
